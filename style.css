@@ -9,9 +9,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    background-color: #475363;
     padding: 10px 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
     }
     /* Logo */
     .logo img {
@@ -30,43 +30,28 @@ body {
     }
     .menu a {
     text-decoration: none;
-    color: rgb(117, 140, 218);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     padding: 10px 15px;
     transition: background-color 0.3s, color 0.3s;
     }
     /* Cor ao passar o mouse e ao clicar */
     .menu a:hover {
-    background-color: lightblue;
-    color: white;
+    background-color: rgb(96, 138, 216);
+    color: #475363;
     
     }
     .menu a:active {
-    background-color: rgb(75, 75, 230);
-    color: white;
+    background-color: darkblue;
+    color: #475363;
     }
     /* Dropdown */
-    .dropdown-conlor: rgb(193, 193, 215);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    }
-    .dropdown-content li {
-…    .social-links img {
-    height: 30px;
-    transition: transform 0.3s;
-    
-    }
-    .social-links img:hover {
-    transform: scale(1.1);
-    }
-tent {
+    .dropdown-content {
     display: none;
     position: absolute;
     top: 40px;
     left: 0;
-    background-color: rgb(193, 193, 215);
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     list-style: none;
     padding: 0;
@@ -78,12 +63,12 @@ tent {
     .dropdown-content li a {
     display: block;
     padding: 10px;
-    color: rgb(47, 60, 182);
+    color: #475363;
     text-decoration: none;
     }
     .dropdown-content li a:hover {
-    background-color: lightblue;
-    color: white;
+    background-color: rgb(96, 138, 216);
+    color: rgb(96, 138, 216)e;
     }
     .dropdown:hover .dropdown-content {
     display: block;
@@ -97,8 +82,7 @@ tent {
     height: 30px;
     transition: transform 0.3s;
     
-}
-.social-links img:hover {
+    }
+    .social-links img:hover {
     transform: scale(1.1);
     }
-
